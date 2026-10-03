@@ -1,0 +1,126 @@
+.container {
+  color: var(--color-text);
+  margin-top: 80px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.title {
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  gap: 70px;
+}
+
+/* Cartoon */
+
+.imageContainer {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutImage {
+  width: 100%;
+  max-width: 480px;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Right side */
+
+.aboutItems {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.aboutItem {
+  display: flex;
+  align-items: flex-start;
+  gap: 25px;
+}
+
+/* Blue glowing icons */
+
+.icon {
+  width: 70px;
+  height: 70px;
+  min-width: 70px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 3px solid #00bfff;
+  border-radius: 18px;
+
+  box-shadow:
+    0 0 10px #00bfff,
+    0 0 25px rgba(0, 191, 255, 0.6);
+
+  color: #00bfff;
+}
+
+.icon svg {
+  width: 42px;
+  height: 42px;
+
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.aboutItemText h3 {
+  margin: 0 0 8px 0;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.aboutItemText p {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #c9d8f5;
+}
+
+/* Mobile */
+
+@media screen and (max-width: 830px) {
+  .container {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .content {
+    flex-direction: column;
+  }
+
+  .imageContainer {
+    width: 80%;
+  }
+
+  .aboutItems {
+    width: 100%;
+  }
+
+  .aboutItemText h3 {
+    font-size: 22px;
+  }
+
+  .aboutItemText p {
+    font-size: 16px;
+  }
+}

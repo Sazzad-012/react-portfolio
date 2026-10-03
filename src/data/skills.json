@@ -1,0 +1,46 @@
+
+[
+  {
+    "title": "Frontend Development",
+    "skills": [
+      {
+        "name": "HTML",
+        "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+      },
+      {
+        "name": "CSS",
+        "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+      },
+      {
+        "name": "JavaScript",
+        "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+      },
+      {
+        "name": "React",
+        "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+      }
+    ]
+  },
+  {
+    "title": "Backend Development",
+    "skills": [
+      {
+        "name": "Node.js",
+        "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+      },
+      {
+        "name": "Express",
+        "image": "https://expressjs.com/images/logos/glyph-express-white.svg"
+      }
+    ]
+  },
+  {
+    "title": "Database",
+    "skills": [
+      {
+        "name": "MongoDB",
+        "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+      }
+    ]
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "title": "WorkReporting",
+    "imageSrc": "projects/workreporting.png",
+    "description": "A web-based work reporting and employee management system developed using PHP and MySQL. Built with XAMPP, the application allows users to manage employee information, track work activities, and organize reports through a simple and user-friendly interface.",
+    "skills": [
+      "PHP",
+      "MySQL",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "XAMPP"
+    ],
+    "source": "https://github.com/Sazzad-012/Work-Reporting-System"
+  }
+]

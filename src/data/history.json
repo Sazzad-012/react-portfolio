@@ -1,0 +1,16 @@
+
+[
+  {
+    "role": "MERN Stack Developer",
+    "organisation": "Personal Projects",
+    "startDate": "Present",
+    "endDate": "Present",
+    "experiences": [
+      "Building modern and responsive web applications.",
+      "Working with React, Node.js, Express, and MongoDB.",
+      "Developing user-friendly full-stack solutions.",
+      "Continuously learning new technologies and improving development skills."
+    ],
+    "imageSrc": "history/developer.png"
+  }
+]

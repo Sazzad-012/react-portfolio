@@ -1,0 +1,173 @@
+
+@import "../../vars.css";
+
+.container {
+  width: 100%;
+  box-sizing: border-box;
+
+  margin-top: 100px;
+  padding: 70px 10%;
+
+  background: #193665;
+  color: #f8fafc;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  gap: 60px;
+}
+
+/* Left Section */
+
+.text {
+  flex: 1;
+  max-width: 650px;
+}
+
+.text h2 {
+  font-size: clamp(38px, 5vw, 60px);
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 1.2;
+
+  color: #ffffff;
+  margin: 0 0 22px;
+}
+
+.text p {
+  font-size: clamp(19px, 2.3vw, 25px);
+  font-weight: 400;
+  line-height: 1.7;
+
+  color: #e2e8f0;
+  margin: 0 0 20px;
+}
+
+/* Email */
+
+.email {
+  display: inline-block;
+
+  color: #bae6fd !important;
+  font-size: 18px;
+  font-weight: 500;
+
+  text-decoration: none !important;
+
+  transition: color 0.3s ease;
+}
+
+.email:hover {
+  color: #ffffff !important;
+  text-decoration: underline !important;
+}
+
+/* Right Section */
+
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  gap: 35px;
+  min-width: 260px;
+}
+
+/* Social Links */
+
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  gap: 20px;
+  width: 100%;
+}
+
+.link {
+  display: inline-block;
+
+  color: #f1f5f9 !important;
+  font-size: 19px;
+  font-weight: 500;
+  letter-spacing: 0.4px;
+
+  text-decoration: none !important;
+
+  transition:
+    color 0.3s ease,
+    transform 0.3s ease;
+}
+
+.link:hover {
+  color: #a5f3fc !important;
+  transform: translateX(5px);
+}
+
+/* Copyright */
+
+.copyright {
+  color: #cbd5e1;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.8;
+
+  margin: 0;
+}
+
+/* Tablet */
+
+@media screen and (max-width: 830px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+    padding: 55px 7%;
+    gap: 40px;
+  }
+
+  .text {
+    width: 100%;
+  }
+
+  .right {
+    align-items: center;
+    min-width: auto;
+  }
+
+  .links {
+    align-items: center;
+  }
+}
+
+/* Mobile */
+
+@media screen and (max-width: 480px) {
+  .container {
+    padding: 45px 20px;
+    margin-top: 70px;
+  }
+
+  .text h2 {
+    font-size: 34px;
+  }
+
+  .text p {
+    font-size: 18px;
+  }
+
+  .email {
+    font-size: 15px;
+    overflow-wrap: anywhere;
+  }
+
+  .link {
+    font-size: 17px;
+  }
+
+  .copyright {
+    font-size: 13px;
+  }
+}
