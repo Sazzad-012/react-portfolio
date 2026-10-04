@@ -17,9 +17,14 @@
   color: var(--color-text);
 }
 
-
 .menuBtn {
   display: none;
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 32px;
+  cursor: pointer;
+  padding: 0;
 }
 
 .menu {
